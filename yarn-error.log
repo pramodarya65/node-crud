@@ -1,0 +1,69 @@
+Arguments: 
+  /home/pramod/.nvm/versions/node/v16.14.2/bin/node /usr/share/yarn/bin/yarn.js add mocho --save-dev
+
+PATH: 
+  /home/pramod/Android/Sdk/emulator:/home/pramod/Android/Sdk/tools:/home/pramod/.local/bin:/home/pramod/.nvm/versions/node/v16.14.2/bin:/home/pramod/.rvm/gems/ruby-2.6.1/bin:/home/pramod/.rvm/gems/ruby-2.6.1@global/bin:/home/pramod/.rvm/rubies/ruby-2.6.1/bin:/home/pramod/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/pramod/.rvm/bin:/home/pramod/.rvm/bin:/home/pramod/.rvm/bin:/home/pramod/Android/Sdk/tools:/home/pramod/Android/Sdk/tools/bin:/home/pramod/Android/Sdk/platform-tools:/home/pramod/.rvm/bin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  16.14.2
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/mocho: Not found
+      at Request.params.callback [as _callback] (/usr/share/yarn/lib/cli.js:66145:18)
+      at Request.self.callback (/usr/share/yarn/lib/cli.js:140890:22)
+      at Request.emit (node:events:526:28)
+      at Request.<anonymous> (/usr/share/yarn/lib/cli.js:141862:10)
+      at Request.emit (node:events:526:28)
+      at IncomingMessage.<anonymous> (/usr/share/yarn/lib/cli.js:141784:12)
+      at Object.onceWrapper (node:events:645:28)
+      at IncomingMessage.emit (node:events:538:35)
+      at endReadableNT (node:internal/streams/readable:1345:12)
+      at processTicksAndRejections (node:internal/process/task_queues:83:21)
+
+npm manifest: 
+  {
+    "name": "crud",
+    "version": "1.0.0",
+    "description": "node crud",
+    "main": "server.js",
+    "scripts": {
+      "start": "node src/server.js",
+      "dev": "nodemon src/server.js"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+      "@joi/date": "^2.1.0",
+      "body-parser": "^1.19.0",
+      "cors": "^2.8.5",
+      "date-and-time": "^2.3.1",
+      "dateformat": "^5.0.3",
+      "dotenv": "^10.0.0",
+      "express": "^4.17.1",
+      "helmet": "^4.6.0",
+      "joi": "^17.4.1",
+      "mongodb": "^4.7.0",
+      "mongoose": "^6.4.2",
+      "monk": "^7.3.3",
+      "morgan": "^1.10.0",
+      "validator": "^13.7.0"
+    },
+    "devDependencies": {
+      "eslint": "^7.31.0",
+      "eslint-config-airbnb-base": "^14.2.1",
+      "eslint-plugin-import": "^2.23.4",
+      "nodemon": "^2.0.18"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
